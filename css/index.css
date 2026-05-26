@@ -1417,3 +1417,37 @@
   margin-top: 4px;
   color: rgba(255, 255, 255, 0.5);
 }
+
+.popup {
+  position: fixed;
+  left: 50px;
+  top: 200px;
+  padding: 20px 40px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 0;
+  border: none;
+}
+.popup .popupbox1 {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 2px solid #444;
+}
+.popup .popupbox1 h2 {
+  font-size: 22px;
+  font-weight: 500;
+}
+.popup .popupbox2 {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
+  border-bottom: 2px solid #444;
+}
+.popup .popupbox2 a {
+  color: var(--color-primary);
+}
+.popup .popupbox3 {
+  text-align: right;
+  padding: 10px;
+}
